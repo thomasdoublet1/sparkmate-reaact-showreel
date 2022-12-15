@@ -1,0 +1,23 @@
+.tabs{
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid lightgray;
+
+
+  .tab{
+    font-weight: 800;
+    text-align: center;
+    padding: 30px;
+    width: 50%;
+    color: darkgray;
+
+    border-bottom: 5px solid transparent;
+
+    &.active{
+      color: $color-primary;
+      border-color: $color-primary;
+    }
+  }
+
+}
+

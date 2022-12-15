@@ -1,0 +1,14 @@
+.container{
+
+  margin-top: $header-height;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  .main-content{
+    padding: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}

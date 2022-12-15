@@ -1,0 +1,25 @@
+.header{
+
+  background: white;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 0px 50px;
+  position: fixed;
+  box-sizing: border-box;
+  height: $header-height;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  border-bottom: 1px solid lightgray;
+
+  h1{
+    font-weight: 800;
+    font-size: $font-size-body;
+  }
+
+  img{
+    width: 100px;
+  }
+
+}

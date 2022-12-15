@@ -1,0 +1,28 @@
+.hero{
+
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h1,h2{
+    font-size: $font-size-huge-heading;
+  }
+
+  h1{
+    font-weight: 800;
+  }
+
+  h2{
+    margin-top: -($font-size-huge-heading/2);
+    font-family: $font-covered-by-your-grace;
+    color: $color-primary;
+  }
+
+  .button{
+    margin-top: 30px;
+  }
+
+}

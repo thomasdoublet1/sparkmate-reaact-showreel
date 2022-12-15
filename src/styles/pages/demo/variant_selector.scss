@@ -1,0 +1,65 @@
+.variant-selector{
+  position: relative;
+  width: 80%;
+  min-width: 500px;
+  height: 400px;
+  display: flex;
+  border: 3px solid lightgray;
+  border-radius: $border-radius;
+  overflow: hidden;
+
+  .component-preview-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    min-width: 300px;
+    background: #F1F1F1;
+    border-right: 3px solid lightgray;
+  }
+
+  .selection-section-container{
+
+    display: flex;
+    flex-direction: column;
+
+    .selection-section{
+
+      padding: 30px;
+
+      h1{
+        font-weight: 800;
+      }
+    }
+
+  }
+}
+
+.input-btn-container{
+  display: flex;
+}
+
+@media screen and (min-width: 1200px){
+  .selection-section .input-btn-container{
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 1199px){
+  .selection-section .input-btn-container{
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 700px){
+  .variant-selector{
+    flex-direction: column;
+  }
+
+  .variant-selector .component-preview-container{
+    border-right: none;
+    border-bottom: 3px solid lightgray;
+    width: 100%;
+    padding: 50px 0px;
+  }
+}

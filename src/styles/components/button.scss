@@ -1,0 +1,51 @@
+.button{
+  box-sizing: border-box;
+  padding: 20px 40px;
+  font-family: $font-open-sans;
+  font-size: $font-size-body;
+  width: fit-content;
+  border-radius: $border-radius;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  .icon{
+    transition: transform .2s ease-in-out;
+    margin-left: 10px;
+  }
+
+  &:hover .icon{
+    transform: translateX(100%);
+  }
+
+  &.primary{
+    border: solid 3px transparent;
+    background: $pink;
+    color: $white;
+
+    &:hover{
+      opacity: .5;
+    }
+  }
+
+  &.secondary{
+    background: white;
+    border: solid 3px $color-text-primary;
+    color: $color-text-primary;
+
+    &:hover{
+      opacity: .5;
+    }
+  }
+
+  &.tertiary{
+    border: solid 3px transparent;
+    background: $color-text-primary;
+    color: $white;
+
+    &:hover{
+      opacity: .5;
+    }
+  }
+}

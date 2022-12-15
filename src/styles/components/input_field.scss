@@ -1,0 +1,21 @@
+.input-field{
+
+  width: 100%;
+
+  input[type=text] {
+    box-sizing: border-box;
+    font-family: $font-open-sans;
+    font-size: $font-size-body;
+    width: 100%;
+    padding: 18px 25px;
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: $border-radius;
+  }
+
+  input:focus, textarea:focus, select:focus{
+    outline: none;
+    border : 2px solid black;
+  }
+
+}
