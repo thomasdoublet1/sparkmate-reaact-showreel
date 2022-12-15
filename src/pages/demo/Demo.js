@@ -9,12 +9,13 @@ const tabs = [
         content:<VariantSelector/>
     },
     {
-        title: "💽 Redux Storez",
+        title: "💽 Redux Store",
         content:<StoreDemo/>
     }
 ];
 
 const Demo = () => {
+
     const [activeTabIndex, setActiveTabIndex] = useState(1);
 
     return (
