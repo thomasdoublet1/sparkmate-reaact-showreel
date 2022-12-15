@@ -9,7 +9,7 @@ const tabs = [
         content:<VariantSelector/>
     },
     {
-        title: "💽 Redux Store",
+        title: "💽 Redux Storez",
         content:<StoreDemo/>
     }
 ];
